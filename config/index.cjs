@@ -17,49 +17,49 @@ const USER_CONFIG = {
   CITY: '成都',
 
   USERS: [
-    // {
-    //   // 想要发送的人的名字
-    //   name: '五州',
-    //   // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-    //   id: 'oyVyq2JqhImcwDhfqOMDmSh0PTi4',
-    //   // 使用微信测试号：你想对他发送的模板消息的模板ID
-    //   useTemplateId: 'pr044ui8Wu07cos0MSoN1VttmjWkuBNWKl0niE7ueCk',
-    //   // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-    //   horoscopeDate: '04-29',
-    //   festivals: [
-    //     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    //     {
-    //       type: '*生日', name: '宝贝', year: '1996', date: '09-09',
-    //     },
-    //     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    //     {
-    //       type: '生日', name: '李四', year: '1996', date: '09-31',
-    //     },
-    //     {
-    //       type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-    //     },
-    //   ],
-    //   // 我们在一起已经有xxxx天了的配置
-    //   customizedDateList: [
-    //     // 在一起的日子
-    //     { keyword: 'love_day', date: '2022-09-08' },
-    //     // 结婚纪念日
-    //     { keyword: 'marry_day', date: '2022-09-09' },
-    //   ],
-    // },
+    {
+      // 想要发送的人的名字
+      name: '五州',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oyVyq2CitSAnqzqU02prq96FgfCY',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'btAacwTUYla4xwIVLv_x4vGKPiYSzg9ob96icWIVkdg',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '04-29',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: 'rwz', year: '2004', date: '04-29',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '*生日', name: '小雪宝宝', year: '2005', date: '10-15',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2025', date: '09-10',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2025-10-26' },
+        // 结婚纪念日
+        // { keyword: 'marry_day', date: '2022-09-09' },
+      ],
+    },
     {
       // 想要发送的人的名字
       name: '小雪',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oyVyq2JqhImcwDhfqOMDmSh0PTi4',
+      id: 'oyVyq2J4-oogRIi6-uueeSo1DwjU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'pr044ui8Wu07cos0MSoN1VttmjWkuBNWKl0niE7ueCk',
+      useTemplateId: 'btAacwTUYla4xwIVLv_x4vGKPiYSzg9ob96icWIVkdg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-15',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小宝', year: '2005', date: '10-15',
+          type: '*生日', name: '小雪宝宝', year: '2005', date: '10-15',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         // {
@@ -94,4 +94,3 @@ const USER_CONFIG = {
 }
 
 module.exports = USER_CONFIG
-
